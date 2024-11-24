@@ -1,0 +1,9 @@
+# Paths to dataset folders
+train: /content/dataset/pedestrian-object-detection-dataset/train/images
+val: /content/dataset/pedestrian-object-detection-dataset/valid/images
+
+# Number of classes
+nc: 4
+
+# Class names
+names: ['non_vulnerable', 'children_wo_disability', 'with_disability', 'elderly_wo_disability']
