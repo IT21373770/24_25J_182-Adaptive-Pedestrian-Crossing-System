@@ -19,7 +19,7 @@ Main system components:
 
 ## Navigating this repository
 * vulnerable_pedestrian_detection
-    * SmartCrossNet.ipynb - This colab notebook contains the complete pipeline for the pedestrian detection model.
+    * ![SmartCrossNet.ipynb](https://github.com/IT21373770/24_25J_182-Adaptive-Pedestrian-Crossing-System/blob/main/pedestrian-detection-model/models/SmartCrossNet.ipynb) - This colab notebook contains the complete pipeline for the pedestrian detection model.
     * Pedestrian_classes.yaml - YAML configuration file listing the pedestrian classes used in the model.
     * trainin_vs_validation_loss_graph.png - Graph showing training and validation loss over epochs, helping analyze convergence and detect                                                overfitting or underfitting
     * precision_recall_map_graph.png - Precision-recall curve with mAP score. Provides insights into model performance for detecting each                                                  pedestrian class and overall.
@@ -28,6 +28,7 @@ Main system components:
 * weather_adaptive_timing
 
 ## Inspecting training results
+### Vulnerable pedestrian detection module
 The training process automatically saves results in `./runs/detect/train` directory. Which includes:
   * Model weights: `best.pt` and `last.pt`.
   * Metric plots: Including mAP50, mAP50-95, class loss, F1 score, and others.
@@ -36,9 +37,9 @@ The training process automatically saves results in `./runs/detect/train` direct
 
 For example, the vulnerable pedestrian detection model trained with a YOLOv8 configuration for 50 epochs produces detailed outputs, including:
   1) Training and validation Loss Graph
-     ![training_vs_validation_loss_graph](https://github.com/user-attachments/assets/29d57a61-1884-4ac1-aa7b-0965ad9fa2d4)
-
   2) Sample Batch Visualization
+     
+     ![training_vs_validation_loss_graph](https://github.com/user-attachments/assets/29d57a61-1884-4ac1-aa7b-0965ad9fa2d4)
      ![Screenshot 2024-12-03 212302](https://github.com/user-attachments/assets/e667aafc-99b8-4b6a-a9cb-c50373462ade)
 
 
