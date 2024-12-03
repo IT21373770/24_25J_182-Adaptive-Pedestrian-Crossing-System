@@ -28,17 +28,17 @@ Main system components:
 * weather_adaptive_timing
 
 ## Inspecting training results
-The training process automatically saves results in the ./runs/detect/train directory. These results include:
-  * Model weights: best.pt and last.pt.
+The training process automatically saves results in `./runs/detect/train` directory. Which includes:
+  * Model weights: `best.pt` and `last.pt`.
   * Metric plots: Including mAP50, mAP50-95, class loss, F1 score, and others.
   * Batch visualizations: Quick visualization of some training and validation batches.
-  * Summary file: results.csv summarizing the training results.
+  * Summary file: `results.csv` summarizing the training results.
 
 For example, the vulnerable pedestrian detection model trained with a YOLOv8 configuration for 50 epochs produces detailed outputs, including:
   1) Training and validation Loss Graph
      ![training_vs_validation_loss_graph](https://github.com/user-attachments/assets/29d57a61-1884-4ac1-aa7b-0965ad9fa2d4)
 
-  3) Sample Batch Visualization
+  2) Sample Batch Visualization
      ![Screenshot 2024-12-03 212302](https://github.com/user-attachments/assets/e667aafc-99b8-4b6a-a9cb-c50373462ade)
 
 
