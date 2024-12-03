@@ -9,7 +9,7 @@ Traditional traffic management systems are static and incapable of adapting to r
   3) Adverse weather conditions exacerbate the risk of accidents at pedestrian crossings.
 
 ## System Architecture
-![Untitled (3)](https://github.com/user-attachments/assets/5c2d688e-4ee3-453c-b45a-71b1ad2ee75c)
+![Untitled (5)](https://github.com/user-attachments/assets/6e151bb9-cbe0-460b-a069-df38021055ed)
 
 Main system components:
   1) Pedestrian count and vehicle presence analysis module.
