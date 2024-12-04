@@ -6,4 +6,4 @@ val: /content/dataset/pedestrian-object-detection-dataset/valid/images
 nc: 4
 
 # Class names
-names: ['non_vulnerable', 'children_wo_disability', 'with_disability', 'elderly_wo_disability']
+names: ['elderly', 'children', 'disabled', 'non-disabled']
