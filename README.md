@@ -42,5 +42,21 @@ For example, the vulnerable pedestrian detection model trained with a YOLOv8 con
      ![training_vs_validation_loss_graph](https://github.com/user-attachments/assets/29d57a61-1884-4ac1-aa7b-0965ad9fa2d4)
      ![Screenshot 2024-12-03 212302](https://github.com/user-attachments/assets/e667aafc-99b8-4b6a-a9cb-c50373462ade)
 
+### Pedestrian count module
+Training Results: Results are saved in runs/detect/train2.
+Evaluation Metrics:
+  * Precision: 85.40%
+  * Recall: 71.13%
+  * mAP@50: 74.81%
+  * mAP@50-95: 55.51%
 
+Training Details:
+  * Model: YOLO8
+  * Number of Epochs: 100
 
+Performance Summary:
+  * The model achieved high precision, indicating a low false positive rate.
+  * The mAP@50 and mAP@50-95 scores suggest good overall detection accuracy across different IoU     thresholds.
+
+ ![Training Validation loss graph pedestrian count model](https://github.com/IT21373770/24_25J_182-Adaptive-Pedestrian-Crossing-System/blob/main/Pedestrian_Count_Model/results/Training%20Validation%20loss%20graph%20pedestrian%20count%20model.png)
+ ![Sample output from model](https://github.com/IT21373770/24_25J_182-Adaptive-Pedestrian-Crossing-System/blob/main/Pedestrian_Count_Model/results/Output%20From%20Model%20After%20Trainig.png)
