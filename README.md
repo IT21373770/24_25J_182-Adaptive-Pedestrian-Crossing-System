@@ -60,3 +60,24 @@ Performance Summary:
 
  ![Training Validation loss graph pedestrian count model](https://github.com/IT21373770/24_25J_182-Adaptive-Pedestrian-Crossing-System/blob/main/Pedestrian_Count_Model/results/Training%20Validation%20loss%20graph%20pedestrian%20count%20model.png)
  ![Sample output from model](https://github.com/IT21373770/24_25J_182-Adaptive-Pedestrian-Crossing-System/blob/main/Pedestrian_Count_Model/results/Output%20From%20Model%20After%20Trainig.png)
+
+ ### Vehicle density module
+ Training Results: Results are saved in runs/detect/train2.
+ Evaluation Metrics:
+   * Precision: 80.30%
+   * Recall: 74.88%
+   * mAP@50: 76.44%
+   * mAP@50-95: 58.99%
+ 
+ Training Details:
+   * Model: YOLO8
+   * Number of Epochs: 50
+ 
+ Performance Summary:
+   * The model achieved a precision of 80.30%, indicating a good ability to avoid false    
+     positives.
+   * Recall of 74.88% suggests that the model successfully detects most relevant objects.
+   * The mAP@50 and mAP@50-95 scores demonstrate a strong overall detection performance across 
+     different IoU thresholds.
+
+ ![Sample output from model]([https://github.com/IT21373770/24_25J_182-Adaptive-Pedestrian-Crossing-System/blob/main/Pedestrian_Count_Model/results/Output%20From%20Model%20After%20Trainig.png](https://github.com/IT21373770/24_25J_182-Adaptive-Pedestrian-Crossing-System/blob/main/Vehicle_Density_Model/results/sample_output_of_vehicle_dencity_model_2.png))
