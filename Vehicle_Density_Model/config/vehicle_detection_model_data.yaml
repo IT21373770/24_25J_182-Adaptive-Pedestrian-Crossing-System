@@ -1,0 +1,13 @@
+train: /content/drive/MyDrive/datasets/vehicles/train/images
+test: /content/drive/MyDrive/datasets/vehicles/test/images
+val: /content/drive/MyDrive/datasets/vehicles/valid/images
+
+nc: 5
+names: ['Ambulance', 'Bus', 'Motorcycle', 'Truck', 'Vehicle']
+
+roboflow:
+  workspace: msc-yolo-project
+  project: vehicle-detection-0dzfu
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/msc-yolo-project/vehicle-detection-0dzfu/dataset/3
