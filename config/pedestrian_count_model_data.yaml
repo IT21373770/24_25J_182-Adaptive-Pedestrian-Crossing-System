@@ -1,0 +1,13 @@
+train: /content/drive/MyDrive/datasets/pedestrians/train/images
+test: /content/drive/MyDrive/datasets/pedestrians/test/images
+val: /content/drive/MyDrive/datasets/pedestrians/valid/images
+
+nc: 2
+names: ['pedestrian', 'people']
+
+roboflow:
+  workspace: people-detection-o3dn2
+  project: people-detection-fwbyh
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/people-detection-o3dn2/people-detection-fwbyh/dataset/1
