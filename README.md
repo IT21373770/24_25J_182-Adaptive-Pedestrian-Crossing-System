@@ -80,4 +80,4 @@ Performance Summary:
    * The mAP@50 and mAP@50-95 scores demonstrate a strong overall detection performance across 
      different IoU thresholds.
 
- ![Sample output from model]([https://github.com/IT21373770/24_25J_182-Adaptive-Pedestrian-Crossing-System/blob/main/Pedestrian_Count_Model/results/Output%20From%20Model%20After%20Trainig.png](https://github.com/IT21373770/24_25J_182-Adaptive-Pedestrian-Crossing-System/blob/main/Vehicle_Density_Model/results/sample_output_of_vehicle_dencity_model_2.png))
+ ![Sample output from model](https://github.com/IT21373770/24_25J_182-Adaptive-Pedestrian-Crossing-System/blob/main/Vehicle_Density_Model/results/sample_output_of_vehicle_dencity_model_2.png)
